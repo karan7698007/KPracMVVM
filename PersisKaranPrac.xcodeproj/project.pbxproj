@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		582A042799000CD1C9293AA5 /* Pods_PersisKaranPrac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A3BC4012EBB47613F99AE11 /* Pods_PersisKaranPrac.framework */; };
+		E329370829581C6C00645423 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E329370729581C6C00645423 /* AppDelegate.swift */; };
+		E329370A29581C6C00645423 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E329370929581C6C00645423 /* SceneDelegate.swift */; };
+		E329370F29581C6C00645423 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E329370D29581C6C00645423 /* Main.storyboard */; };
+		E329371129581C6E00645423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E329371029581C6E00645423 /* Assets.xcassets */; };
+		E329371429581C6E00645423 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E329371229581C6E00645423 /* LaunchScreen.storyboard */; };
+		E329371E295839D400645423 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E329371D295839D400645423 /* APIManager.swift */; };
+		E329372429584FB800645423 /* EmployeeModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E329372329584FB800645423 /* EmployeeModal.swift */; };
+		E3293726295850C800645423 /* EmpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3293725295850C800645423 /* EmpViewModel.swift */; };
+		E3293729295851DB00645423 /* MixExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3293728295851DB00645423 /* MixExtention.swift */; };
+		E329372B2958525B00645423 /* EmpListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E329372A2958525B00645423 /* EmpListVC.swift */; };
+		E329372E2958553A00645423 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E329372D2958553A00645423 /* Constants.swift */; };
+		E3293731295856FC00645423 /* EmpDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3293730295856FC00645423 /* EmpDataSource.swift */; };
+		E32937342958591500645423 /* EmpTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32937322958591500645423 /* EmpTblCell.swift */; };
+		E32937352958591500645423 /* EmpTblCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E32937332958591500645423 /* EmpTblCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21016A98F81F74CE6022A082 /* Pods-PersisKaranPrac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersisKaranPrac.release.xcconfig"; path = "Target Support Files/Pods-PersisKaranPrac/Pods-PersisKaranPrac.release.xcconfig"; sourceTree = "<group>"; };
+		2A3BC4012EBB47613F99AE11 /* Pods_PersisKaranPrac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PersisKaranPrac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE382FDC734AD520F6E65FC2 /* Pods-PersisKaranPrac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersisKaranPrac.debug.xcconfig"; path = "Target Support Files/Pods-PersisKaranPrac/Pods-PersisKaranPrac.debug.xcconfig"; sourceTree = "<group>"; };
+		E329370429581C6C00645423 /* PersisKaranPrac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersisKaranPrac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E329370729581C6C00645423 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E329370929581C6C00645423 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E329370E29581C6C00645423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E329371029581C6E00645423 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E329371329581C6E00645423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E329371529581C6E00645423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E329371D295839D400645423 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		E329372329584FB800645423 /* EmployeeModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeModal.swift; sourceTree = "<group>"; };
+		E3293725295850C800645423 /* EmpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpViewModel.swift; sourceTree = "<group>"; };
+		E3293728295851DB00645423 /* MixExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixExtention.swift; sourceTree = "<group>"; };
+		E329372A2958525B00645423 /* EmpListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpListVC.swift; sourceTree = "<group>"; };
+		E329372D2958553A00645423 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E3293730295856FC00645423 /* EmpDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpDataSource.swift; sourceTree = "<group>"; };
+		E32937322958591500645423 /* EmpTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpTblCell.swift; sourceTree = "<group>"; };
+		E32937332958591500645423 /* EmpTblCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmpTblCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E329370129581C6C00645423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582A042799000CD1C9293AA5 /* Pods_PersisKaranPrac.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		612964B4A7962FCAFF953ADD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A3BC4012EBB47613F99AE11 /* Pods_PersisKaranPrac.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9494FEEE389E0827CCD0EACD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE382FDC734AD520F6E65FC2 /* Pods-PersisKaranPrac.debug.xcconfig */,
+				21016A98F81F74CE6022A082 /* Pods-PersisKaranPrac.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E32936FB29581C6C00645423 = {
+			isa = PBXGroup;
+			children = (
+				E329370629581C6C00645423 /* PersisKaranPrac */,
+				E329370529581C6C00645423 /* Products */,
+				9494FEEE389E0827CCD0EACD /* Pods */,
+				612964B4A7962FCAFF953ADD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E329370529581C6C00645423 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E329370429581C6C00645423 /* PersisKaranPrac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E329370629581C6C00645423 /* PersisKaranPrac */ = {
+			isa = PBXGroup;
+			children = (
+				E329370729581C6C00645423 /* AppDelegate.swift */,
+				E329370929581C6C00645423 /* SceneDelegate.swift */,
+				E329372C2958552C00645423 /* Constatnts */,
+				E3293727295851C700645423 /* Extention */,
+				E329371C2958355300645423 /* EmployeeListModule */,
+				E329371B2958353900645423 /* Helper */,
+				E329370D29581C6C00645423 /* Main.storyboard */,
+				E329371029581C6E00645423 /* Assets.xcassets */,
+				E329371229581C6E00645423 /* LaunchScreen.storyboard */,
+				E329371529581C6E00645423 /* Info.plist */,
+			);
+			path = PersisKaranPrac;
+			sourceTree = "<group>";
+		};
+		E329371B2958353900645423 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E329371D295839D400645423 /* APIManager.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		E329371C2958355300645423 /* EmployeeListModule */ = {
+			isa = PBXGroup;
+			children = (
+				E329372F295856EA00645423 /* EmpDataSource */,
+				E32937222958446E00645423 /* Controller */,
+				E32937212958446600645423 /* Model */,
+				E32937202958445C00645423 /* ViewModel */,
+				E329371F2958445600645423 /* View */,
+			);
+			path = EmployeeListModule;
+			sourceTree = "<group>";
+		};
+		E329371F2958445600645423 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E32937322958591500645423 /* EmpTblCell.swift */,
+				E32937332958591500645423 /* EmpTblCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E32937202958445C00645423 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E3293725295850C800645423 /* EmpViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E32937212958446600645423 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E329372329584FB800645423 /* EmployeeModal.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E32937222958446E00645423 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E329372A2958525B00645423 /* EmpListVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E3293727295851C700645423 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				E3293728295851DB00645423 /* MixExtention.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		E329372C2958552C00645423 /* Constatnts */ = {
+			isa = PBXGroup;
+			children = (
+				E329372D2958553A00645423 /* Constants.swift */,
+			);
+			path = Constatnts;
+			sourceTree = "<group>";
+		};
+		E329372F295856EA00645423 /* EmpDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				E3293730295856FC00645423 /* EmpDataSource.swift */,
+			);
+			path = EmpDataSource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E329370329581C6C00645423 /* PersisKaranPrac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E329371829581C6E00645423 /* Build configuration list for PBXNativeTarget "PersisKaranPrac" */;
+			buildPhases = (
+				51EE605372ACCFED8E6DAFBF /* [CP] Check Pods Manifest.lock */,
+				E329370029581C6C00645423 /* Sources */,
+				E329370129581C6C00645423 /* Frameworks */,
+				E329370229581C6C00645423 /* Resources */,
+				8BCDF65848B0253A58287D9C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PersisKaranPrac;
+			productName = PersisKaranPrac;
+			productReference = E329370429581C6C00645423 /* PersisKaranPrac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E32936FC29581C6C00645423 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					E329370329581C6C00645423 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = E32936FF29581C6C00645423 /* Build configuration list for PBXProject "PersisKaranPrac" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E32936FB29581C6C00645423;
+			productRefGroup = E329370529581C6C00645423 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E329370329581C6C00645423 /* PersisKaranPrac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E329370229581C6C00645423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E329371429581C6E00645423 /* LaunchScreen.storyboard in Resources */,
+				E329371129581C6E00645423 /* Assets.xcassets in Resources */,
+				E329370F29581C6C00645423 /* Main.storyboard in Resources */,
+				E32937352958591500645423 /* EmpTblCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51EE605372ACCFED8E6DAFBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PersisKaranPrac-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BCDF65848B0253A58287D9C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PersisKaranPrac/Pods-PersisKaranPrac-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PersisKaranPrac/Pods-PersisKaranPrac-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PersisKaranPrac/Pods-PersisKaranPrac-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E329370029581C6C00645423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E329371E295839D400645423 /* APIManager.swift in Sources */,
+				E329372B2958525B00645423 /* EmpListVC.swift in Sources */,
+				E3293726295850C800645423 /* EmpViewModel.swift in Sources */,
+				E3293729295851DB00645423 /* MixExtention.swift in Sources */,
+				E3293731295856FC00645423 /* EmpDataSource.swift in Sources */,
+				E32937342958591500645423 /* EmpTblCell.swift in Sources */,
+				E329370829581C6C00645423 /* AppDelegate.swift in Sources */,
+				E329372429584FB800645423 /* EmployeeModal.swift in Sources */,
+				E329370A29581C6C00645423 /* SceneDelegate.swift in Sources */,
+				E329372E2958553A00645423 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E329370D29581C6C00645423 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E329370E29581C6C00645423 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E329371229581C6E00645423 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E329371329581C6E00645423 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E329371629581C6E00645423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E329371729581C6E00645423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E329371929581C6E00645423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE382FDC734AD520F6E65FC2 /* Pods-PersisKaranPrac.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PersisKaranPrac/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kns.PersisKaranPrac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E329371A29581C6E00645423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21016A98F81F74CE6022A082 /* Pods-PersisKaranPrac.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PersisKaranPrac/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kns.PersisKaranPrac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E32936FF29581C6C00645423 /* Build configuration list for PBXProject "PersisKaranPrac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E329371629581C6E00645423 /* Debug */,
+				E329371729581C6E00645423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E329371829581C6E00645423 /* Build configuration list for PBXNativeTarget "PersisKaranPrac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E329371929581C6E00645423 /* Debug */,
+				E329371A29581C6E00645423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E32936FC29581C6C00645423 /* Project object */;
+}

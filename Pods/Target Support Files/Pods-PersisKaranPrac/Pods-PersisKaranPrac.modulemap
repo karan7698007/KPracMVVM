@@ -1,0 +1,6 @@
+framework module Pods_PersisKaranPrac {
+  umbrella header "Pods-PersisKaranPrac-umbrella.h"
+
+  export *
+  module * { export * }
+}
